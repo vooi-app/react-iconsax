@@ -6,6 +6,12 @@
   "scripts": {
     "build": "tsx index.ts"
   },
+  "homepage": "https://github.com/vooi-app/react-iconsax",
+  "bugs": "https://github.com/vooi-app/react-iconsax/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vooi-app/react-iconsax/lucide.git"
+  },
   "types": "./dist/index.d.ts",
   "type": "module",
   "sideEffects": false,
