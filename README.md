@@ -1,14 +1,14 @@
-# Vooi React Iconsax
+# 🚀 VOOI React Iconsax
 
-Iconsax port for React.
+An [Iconsax](https://iconsax.io) port for React to seamlessly integrate beautiful icons into your React projects.
 
-## Installation
+## 📦 Installation
 
 ```bash
 pnpm add @vooi/react-iconsax
 ```
 
-## Usage
+## ⚡️ Usage
 
 ```tsx
 import { BitcoinCardBold } from "@vooi/react-iconsax";
