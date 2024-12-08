@@ -1,0 +1,51 @@
+{
+  "name": "@vooi/react-iconsax",
+  "version": "1.0.7",
+  "description": "React port of Iconsax icons",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsx index.ts"
+  },
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js",
+      "default": "./dist/*.js"
+    }
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "iconsax",
+    "react-iconsax",
+    "svg",
+    "icon"
+  ],
+  "author": "mxck",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0-rc"
+  },
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-prettier": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.1",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
