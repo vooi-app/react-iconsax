@@ -50,6 +50,7 @@
     "@svgr/plugin-svgo": "^8.1.0",
     "@types/node": "^22.10.1",
     "@types/react": "^19.0.1",
+    "esbuild-fix-imports-plugin": "^1.0.19",
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"

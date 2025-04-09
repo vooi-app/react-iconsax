@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import { transform } from "@svgr/core";
 import path from "node:path";
 
+import { fixImportsPlugin } from "esbuild-fix-imports-plugin";
 import { build } from "tsup";
 
 const DEFAULT_COLOR = "#292D32";
@@ -113,6 +114,7 @@ await build({
   clean: true,
   minify: false,
   bundle: false,
+  esbuildPlugins: [fixImportsPlugin()],
 });
 
 function template(variables, { tpl }) {

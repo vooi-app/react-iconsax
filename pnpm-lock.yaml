@@ -30,6 +30,9 @@ importers:
       '@types/react':
         specifier: ^19.0.1
         version: 19.0.1
+      esbuild-fix-imports-plugin:
+        specifier: ^1.0.19
+        version: 1.0.19
       tsup:
         specifier: ^8.3.5
         version: 8.3.5(tsx@4.19.2)(typescript@5.7.2)
@@ -776,6 +779,9 @@ packages:
 
   error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
+
+  esbuild-fix-imports-plugin@1.0.19:
+    resolution: {integrity: sha512-VsI6ozJaEOiRYRr/hWHbP8S+Pm7HNjHPbEctWVAUZ5NRUpES1PBLMSkMvB4WXKGniTKw0zupd01BlHog2bqsSg==}
 
   esbuild@0.23.1:
     resolution: {integrity: sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==}
@@ -1723,6 +1729,8 @@ snapshots:
   error-ex@1.3.2:
     dependencies:
       is-arrayish: 0.2.1
+
+  esbuild-fix-imports-plugin@1.0.19: {}
 
   esbuild@0.23.1:
     optionalDependencies:
